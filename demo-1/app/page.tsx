@@ -133,8 +133,20 @@ export default function Home() {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    if (!form.name.trim() || !form.email.trim()) {
+    if (!form.name.trim() && !form.email.trim()) {
       setError("Please enter your name and email before submitting.");
+      setSuccess(false);
+      return;
+    }
+
+    if (!form.name.trim()) {
+      setError("Please enter your name before submitting.");
+      setSuccess(false);
+      return;
+    }
+
+    if (!form.email.trim()) {
+      setError("Please enter your email before submitting.");
       setSuccess(false);
       return;
     }
