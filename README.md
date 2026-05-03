@@ -56,6 +56,41 @@ Open `http://localhost:3000`.
 
 For Vercel, import this GitHub repository and set the project root directory to `demo-1`.
 
+## Demo 3: SmileCare Clinic AI Chatbot
+
+A responsive chatbot demo for a fictional dental clinic that answers common patient questions and collects appointment or callback requests.
+
+### Key Features
+
+- Clean healthcare landing page
+- Service cards for teeth cleaning, whitening, emergency dental care, and braces consultation
+- Predefined chatbot answers for hours, location, pricing, emergency appointments, and booking
+- Appointment request flow for name, phone, preferred date, and service needed
+- Unknown-question fallback with callback offer
+- Mobile-responsive React and Tailwind CSS UI
+
+### Tools Used
+
+- Next.js
+- React
+- Tailwind CSS
+- Predefined chatbot logic
+- AI-assisted development workflow
+
+### Local Setup
+
+Project folder: `demo-3-ai-chatbot`
+
+```bash
+cd demo-3-ai-chatbot
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+For Vercel, import this GitHub repository and set the project root directory to `demo-3-ai-chatbot`.
+
 ## Portfolio Case Study
 
 ### Problem
@@ -75,5 +110,4 @@ The final page demonstrates how a small business or coach can present their offe
 Planned portfolio demos:
 
 1. BrightFlow Agency Lead Dashboard
-2. SmileCare Clinic Chatbot Demo
 
